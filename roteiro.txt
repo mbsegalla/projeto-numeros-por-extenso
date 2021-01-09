@@ -1,0 +1,30 @@
+Projeto numeros-por-extenso
+===========================
+
+(x) HTML
+   (x) Mostrar importação do Materialize CSS
+   (x) Mostrar importação do Materialize JavaScript
+   (x) Mostrar tags HTML
+   (x) Explicar o <script defer>
+
+(x) JavaScript
+   (x) Mostrar variáveis globais
+   (x) Mostrar função start()
+   (x) Mostrar função handleRangeChange()
+   (x) Mostrar função numberToDescription()
+   (x) Mostrar função sizeOneDescription()
+   (x) Mostrar função sizeTwoDescription()
+   (x) Mostrar função sizeThreeDescription()
+
+(x) Node
+   (x) Transformar o projeto em um projeto Node.js
+   (x) Instalar live-server local 
+   (x) Executar projeto com live-server local 
+
+() Fake backend
+   () Criar novo projeto Node.js
+   () Instalar e configurar json-server 
+   () Obter dados de https://restcountries.eu/rest/v2/all
+   () Montar o backend
+   () Criar frontend simples
+   () Consumir backend no frontend

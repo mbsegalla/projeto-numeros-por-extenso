@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <title>Números por extenso</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="center">Números por extenso</h1>
+
+      <p>Escolha um número entre 0 e 999:</p>
+
+      <div class="range-field">
+        <input
+          type="range"
+          id="inputRange"
+          value="0"
+          step="1"
+          min="0"
+          max="999"
+        />
+      </div>
+
+      <div class="input-field">
+        <input id="inputValue" type="text" disabled readonly value="0" />
+        <label for="inputValue" class="active">Número atual:</label>
+      </div>
+
+      <div class="input-field">
+        <input
+          id="inputDescription"
+          type="text"
+          disabled
+          readonly
+          value="zero"
+        />
+        <label for="inputDescription" class="active">Número por extenso:</label>
+      </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script defer src="script.js"></script>
+  </body>
+</html>
